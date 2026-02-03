@@ -1,0 +1,54 @@
+#app {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* div {
+    border: dashed 1px red
+}
+.bgcontainer {
+    border: solid 10px red;
+} */
+
+.row {
+  border: 1px dashed blue; /* See the row boundaries */
+}
+
+.bear-card .card {
+  border: 1px solid red; /* See individual card boundaries */
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+
+.hidden {
+    opacity: 0;
+    display: none
+}
+/* #inCollectionCheckbox {
+
+} */
+/* #bear-container {
+} */
+
+/* .generation-section {
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+.generation-cards {
+    display: grid;
+
+    gap: 1rem;
+}
+
+.bear-card {
+    margin: 1rem;
+} 
