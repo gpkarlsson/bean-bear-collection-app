@@ -31,7 +31,11 @@
     opacity: 0;
     display: none
 }
-/* #inCollectionCheckbox {
+
+.bg-success {
+    border: solid 1px red;
+}
+/*  #inCollectionCheckbox {
 
 } */
 /* #bear-container {
