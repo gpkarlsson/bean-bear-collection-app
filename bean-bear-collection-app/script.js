@@ -65,3 +65,4 @@ const bearCard = document.getElementsByClassName("card");
 
 
 
+//IDEAS FOR FUTURE FEATURES: If bear is not in collection, search eBay using eBay Browse API or ebay Notification API to send emails of newly listed bears that are not in collection
