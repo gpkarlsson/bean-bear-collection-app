@@ -25,10 +25,10 @@ const cardsContainer = document.createElement('div');
 cardsContainer.className = 'row';
 
 bearArray.forEach(bearData => {
-     console.log(`Processing bear ${genName}: ${bearData.bearName}`);
+    //  console.log(`Processing bear ${genName}: ${bearData.bearName}`);
     const card = document.createElement('div');
     card.className = 'col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-3';
-
+    //TODO: 
     //TODO: add check for limited edition bears, only render total prod num if limited edition
     //TODO: fix display names for non numbered generations
     //TODO: fix css classes so bears not owned display badge differently, and change hasHangtag to yes/no depending on whether hasHangtag is true or not
@@ -50,20 +50,20 @@ card.innerHTML = `
 });
     genSection.appendChild(cardsContainer);
     bearContainer.appendChild(genSection);
-     console.log(`Finished bear ${genName, bearData.bearName}`);
+    //  console.log(`Finished bear ${genName, bearData.bearName}`);
 });
 
 const bearCard = document.getElementsByClassName("card");
 
-Object.entries(bearData.generations).forEach(([genName, data]) => {
-  console.log(`${genName}:`, {
-    type: typeof data,
-    isArray: Array.isArray(data),
-    length: data.length,
-    firstItem: data[0],
-    firstItemType: typeof data[0]
-  });
-});
+// Object.entries(bearData.generations).forEach(([genName, data]) => {
+//   console.log(`${genName}:`, {
+//     type: typeof data,
+//     isArray: Array.isArray(data),
+//     length: data.length,
+//     firstItem: data[0],
+//     firstItemType: typeof data[0]
+//   });
+// });
 
 
 // function handleInCollectionCheckbox(){
