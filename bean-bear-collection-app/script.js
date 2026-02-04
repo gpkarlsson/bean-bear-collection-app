@@ -30,6 +30,8 @@ bearArray.forEach(bearData => {
     card.className = 'col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-3';
 
     //TODO: add check for limited edition bears, only render total prod num if limited edition
+    //TODO: fix display names for non numbered generations
+    //TODO: fix css classes so bears not owned display badge differently, and change hasHangtag to yes/no depending on whether hasHangtag is true or not
 card.innerHTML = `
     <div class="card">
         <img src="https://picsum.photos/200" class="card-img-top" alt="...">

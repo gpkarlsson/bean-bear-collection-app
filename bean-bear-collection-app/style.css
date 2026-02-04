@@ -32,8 +32,10 @@
     display: none
 }
 
-.bg-success {
-    border: solid 1px red;
+
+.bg-secondary {
+    background-color: red;
+    border: solid 5px red;
 }
 /*  #inCollectionCheckbox {
 
