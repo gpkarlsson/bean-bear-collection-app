@@ -366,7 +366,7 @@ const gen3 = [
 
 const gen4 = [
   {
-    bearName: "",
+    bearName: "Candyman",
     year: "",
     generation: "4",
     inCollection: true,
@@ -377,7 +377,7 @@ const gen4 = [
     imagePath: "#",
   },
   {
-    bearName: "",
+    bearName: "Deal",
     year: "",
     generation: "4",
     inCollection: true,
@@ -388,7 +388,7 @@ const gen4 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Fall Tour",
     year: "",
     generation: "4",
     inCollection: true,
@@ -399,7 +399,7 @@ const gen4 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Jack-A-Roe",
     year: "",
     generation: "4",
     inCollection: true,
@@ -410,7 +410,7 @@ const gen4 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Snowflake",
     year: "",
     generation: "4",
     inCollection: true,
@@ -421,7 +421,7 @@ const gen4 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Father Time",
     year: "",
     generation: "4",
     inCollection: true,
@@ -431,18 +431,7 @@ const gen4 = [
     venue: "",
   },
    {
-    bearName: "",
-    year: "",
-    generation: "4",
-    inCollection: true,
-    hasHangtag: true,
-    birthday: "",
-    tourMemory: "",
-    venue: "",
-    imagePath: "#",
-  },
-   {
-    bearName: "",
+    bearName: "Fire",
     year: "",
     generation: "4",
     inCollection: true,
@@ -453,7 +442,7 @@ const gen4 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Lost Sailor",
     year: "",
     generation: "4",
     inCollection: true,
@@ -464,7 +453,18 @@ const gen4 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Uncle John",
+    year: "",
+    generation: "4",
+    inCollection: true,
+    hasHangtag: true,
+    birthday: "",
+    tourMemory: "",
+    venue: "",
+    imagePath: "#",
+  },
+   {
+    bearName: "Scarlet",
     year: "",
     generation: "4",
     inCollection: true,
@@ -475,7 +475,7 @@ const gen4 = [
     imagePath: "#",
   },
  {
-    bearName: "",
+    bearName: "Terrapin",
     year: "",
     generation: "4",
     inCollection: true,
@@ -484,23 +484,12 @@ const gen4 = [
     tourMemory: "",
     venue: "",
     imagePath: "#",
-  },
- {
-    bearName: "",
-    year: "",
-    generation: "4",
-    inCollection: true,
-    hasHangtag: true,
-    birthday: "",
-    tourMemory: "",
-    venue: "",
-    imagePath: "#",
-  },
-]
+  }
+];
 
 const gen5 = [
   {
-    bearName: "",
+    bearName: "Aiko",
     year: "",
     generation: "5",
     inCollection: true,
@@ -511,7 +500,7 @@ const gen5 = [
     imagePath: "#",
   },
   {
-    bearName: "",
+    bearName: "Bird Song",
     year: "",
     generation: "5",
     inCollection: true,
@@ -522,7 +511,7 @@ const gen5 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "CC Rider",
     year: "",
     generation: "5",
     inCollection: true,
@@ -533,7 +522,7 @@ const gen5 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Dark Hollow",
     year: "",
     generation: "5",
     inCollection: true,
@@ -544,7 +533,7 @@ const gen5 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Eyes of the World",
     year: "",
     generation: "5",
     inCollection: true,
@@ -555,7 +544,7 @@ const gen5 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Masterpiece",
     year: "",
     generation: "5",
     inCollection: true,
@@ -565,18 +554,7 @@ const gen5 = [
     venue: "",
   },
    {
-    bearName: "",
-    year: "",
-    generation: "5",
-    inCollection: true,
-    hasHangtag: true,
-    birthday: "",
-    tourMemory: "",
-    venue: "",
-    imagePath: "#",
-  },
-   {
-    bearName: "",
+    bearName: "Picasso Moon",
     year: "",
     generation: "5",
     inCollection: true,
@@ -587,7 +565,7 @@ const gen5 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Shakedown",
     year: "",
     generation: "5",
     inCollection: true,
@@ -598,7 +576,7 @@ const gen5 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Alligator",
     year: "",
     generation: "5",
     inCollection: true,
@@ -607,33 +585,12 @@ const gen5 = [
     tourMemory: "",
     venue: "",
     imagePath: "#",
-  },
- {
-    bearName: "",
-    year: "",
-    generation: "5",
-    inCollection: true,
-    hasHangtag: true,
-    birthday: "",
-    tourMemory: "",
-    venue: "",
-    imagePath: "#",
-  },
- {
-    bearName: "",
-    year: "",
-    generation: "5",
-    inCollection: true,
-    hasHangtag: true,
-    birthday: "",
-    tourMemory: "",
-    venue: "",
-    imagePath: "#",
-  },
+  }
 ]
+//GEN 6
 const gen6 = [
    {
-    bearName: "",
+    bearName: "Lazy Lightning",
     year: "",
     generation: "6",
     inCollection: true,
@@ -644,7 +601,7 @@ const gen6 = [
     imagePath: "#",
   },
   {
-    bearName: "",
+    bearName: "Beauty",
     year: "",
     generation: "6",
     inCollection: true,
@@ -655,7 +612,7 @@ const gen6 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Big Boss Man",
     year: "",
     generation: "6",
     inCollection: true,
@@ -666,7 +623,7 @@ const gen6 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "California",
     year: "",
     generation: "6",
     inCollection: true,
@@ -677,7 +634,7 @@ const gen6 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Iris",
     year: "",
     generation: "6",
     inCollection: true,
@@ -688,7 +645,7 @@ const gen6 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "King Bee",
     year: "",
     generation: "6",
     inCollection: true,
@@ -698,18 +655,7 @@ const gen6 = [
     venue: "",
   },
    {
-    bearName: "",
-    year: "",
-    generation: "6",
-    inCollection: true,
-    hasHangtag: true,
-    birthday: "",
-    tourMemory: "",
-    venue: "",
-    imagePath: "#",
-  },
-   {
-    bearName: "",
+    bearName: "Love Light",
     year: "",
     generation: "6",
     inCollection: true,
@@ -720,7 +666,7 @@ const gen6 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Mexicali",
     year: "",
     generation: "6",
     inCollection: true,
@@ -731,7 +677,7 @@ const gen6 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Mr. Fantasy",
     year: "",
     generation: "6",
     inCollection: true,
@@ -740,33 +686,11 @@ const gen6 = [
     tourMemory: "",
     venue: "",
     imagePath: "#",
-  },
- {
-    bearName: "",
-    year: "",
-    generation: "6",
-    inCollection: true,
-    hasHangtag: true,
-    birthday: "",
-    tourMemory: "",
-    venue: "",
-    imagePath: "#",
-  },
- {
-    bearName: "",
-    year: "",
-    generation: "6",
-    inCollection: true,
-    hasHangtag: true,
-    birthday: "",
-    tourMemory: "",
-    venue: "",
-    imagePath: "#",
-  },
+  }
 ]
 const gen7 = [
    {
-    bearName: "",
+    bearName: "Stealie",
     year: "",
     generation: "7",
     inCollection: true,
@@ -777,7 +701,7 @@ const gen7 = [
     imagePath: "#",
   },
   {
-    bearName: "",
+    bearName: "Baby Blue",
     year: "",
     generation: "7",
     inCollection: true,
@@ -788,7 +712,7 @@ const gen7 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Baby Pink",
     year: "",
     generation: "7",
     inCollection: true,
@@ -799,7 +723,7 @@ const gen7 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Butterfly",
     year: "",
     generation: "7",
     inCollection: true,
@@ -810,7 +734,7 @@ const gen7 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Cherise",
     year: "",
     generation: "7",
     inCollection: true,
@@ -821,7 +745,7 @@ const gen7 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Spinner",
     year: "",
     generation: "7",
     inCollection: true,
@@ -831,18 +755,7 @@ const gen7 = [
     venue: "",
   },
    {
-    bearName: "",
-    year: "",
-    generation: "7",
-    inCollection: true,
-    hasHangtag: true,
-    birthday: "",
-    tourMemory: "",
-    venue: "",
-    imagePath: "#",
-  },
-   {
-    bearName: "",
+    bearName: "Summer Tour",
     year: "",
     generation: "7",
     inCollection: true,
@@ -853,7 +766,7 @@ const gen7 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Sunflower",
     year: "",
     generation: "7",
     inCollection: true,
@@ -862,44 +775,11 @@ const gen7 = [
     tourMemory: "",
     venue: "",
     imagePath: "#",
-  },
-   {
-    bearName: "",
-    year: "",
-    generation: "7",
-    inCollection: true,
-    hasHangtag: true,
-    birthday: "",
-    tourMemory: "",
-    venue: "",
-    imagePath: "#",
-  },
- {
-    bearName: "",
-    year: "",
-    generation: "7",
-    inCollection: true,
-    hasHangtag: true,
-    birthday: "",
-    tourMemory: "",
-    venue: "",
-    imagePath: "#",
-  },
- {
-    bearName: "",
-    year: "",
-    generation: "7",
-    inCollection: true,
-    hasHangtag: true,
-    birthday: "",
-    tourMemory: "",
-    venue: "",
-    imagePath: "#",
-  },
+  }
 ]
 const gen8 = [
    {
-    bearName: "",
+    bearName: "Homer",
     year: "",
     generation: "8",
     inCollection: true,
@@ -910,7 +790,7 @@ const gen8 = [
     imagePath: "#",
   },
   {
-    bearName: "",
+    bearName: "Aloha",
     year: "",
     generation: "",
     inCollection: true,
@@ -921,7 +801,7 @@ const gen8 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "El Paso",
     year: "",
     generation: "8",
     inCollection: true,
@@ -932,7 +812,7 @@ const gen8 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Treat",
     year: "",
     generation: "8",
     inCollection: true,
@@ -943,7 +823,7 @@ const gen8 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Mind Bender",
     year: "",
     generation: "8",
     inCollection: true,
@@ -954,7 +834,7 @@ const gen8 = [
     imagePath: "#",
   },
    {
-    bearName: "",
+    bearName: "Birthday Show",
     year: "",
     generation: "8",
     inCollection: true,
@@ -962,72 +842,6 @@ const gen8 = [
     birthday: "",
     tourMemory: "",
     venue: "",
-  },
-   {
-    bearName: "",
-    year: "",
-    generation: "8",
-    inCollection: true,
-    hasHangtag: true,
-    birthday: "",
-    tourMemory: "",
-    venue: "",
-    imagePath: "#",
-  },
-   {
-    bearName: "",
-    year: "",
-    generation: "8",
-    inCollection: true,
-    hasHangtag: true,
-    birthday: "",
-    tourMemory: "",
-    venue: "",
-    imagePath: "#",
-  },
-   {
-    bearName: "",
-    year: "",
-    generation: "8",
-    inCollection: true,
-    hasHangtag: true,
-    birthday: "",
-    tourMemory: "",
-    venue: "",
-    imagePath: "#",
-  },
-   {
-    bearName: "",
-    year: "",
-    generation: "8",
-    inCollection: true,
-    hasHangtag: true,
-    birthday: "",
-    tourMemory: "",
-    venue: "",
-    imagePath: "#",
-  },
- {
-    bearName: "",
-    year: "",
-    generation: "8",
-    inCollection: true,
-    hasHangtag: true,
-    birthday: "",
-    tourMemory: "",
-    venue: "",
-    imagePath: "#",
-  },
- {
-    bearName: "",
-    year: "",
-    generation: "8",
-    inCollection: true,
-    hasHangtag: true,
-    birthday: "",
-    tourMemory: "",
-    venue: "",
-    imagePath: "#",
   },
 ]
 const gen9 = [
