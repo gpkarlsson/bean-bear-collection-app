@@ -2303,7 +2303,7 @@ const unknown = [
     {
     bearName: "Mojo Hare",
     year: "",
-    generation: "",
+    generation: "unknown",
     inCollection: false,
     hasHangtag: false,
     birthday: "",
@@ -2314,7 +2314,7 @@ const unknown = [
     {
     bearName: "Wicked",
     year: "2005",
-    generation: "",
+    generation: "unknown",
     inCollection: false,
     hasHangtag: false,
     birthday: "",
@@ -2323,9 +2323,9 @@ const unknown = [
     imagePath: "#",
    },
     {
-    bearName: "",
-    year: "",
-    generation: "",
+    bearName: "Anthem of the Sun",
+    year: "2018",
+    generation: "unknown",
     inCollection: false,
     hasHangtag: false,
     birthday: "",
