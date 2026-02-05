@@ -15,10 +15,17 @@
   border: 1px dashed blue; /* See the row boundaries */
 }
 
-.bear-card .card {
-  border: 1px solid red; /* See individual card boundaries */
+.bear-card {
+  border: 1px solid red !important; /* See individual card boundaries */
+}
+.card-body {
+  border: 1px solid blue !important;
+  
 }
 
+.tour-memory {
+  border: 1px solid green !important;
+}
 .controls {
     display: flex;
     justify-content: center;
