@@ -35,16 +35,16 @@ Object.entries(bearData.generations).forEach(([genName, bearArray]) => {
         // //and change hasHangtag to yes/no depending on whether hasHangtag is true or not
         card.innerHTML = `
     <div class="card h-100">
-        <img src="https://picsum.photos/200" class="card-img-top" alt="...">
+        <img src="${bearData.imagePath} class="card-img-top" alt="...">
         <div class="card-body shadow p-3 d-flex flex-column">
-            <p class="card-text text-body-secondary"><b>Name:</b> ${bearData.bearName}</p>
+            <p class="card-text"><b>Name:</b> ${bearData.bearName}</p>
             <p class="card-text"><b>Birthday:</b> ${bearData.birthday}</p>
             <p class="card-text"><b>Venue:</b> ${bearData.venue}</p>
             <p class="card-text"><b>Year Released:</b> ${bearData.year}</p>
-            <p class="card-text tour-memory"><b>Tour memory:</b> ${bearData.tourMemory}</p>
+            <p class="card-text tour-memory lh-lg"><b>Tour memory:</b> ${bearData.tourMemory}</p>
             <p class="card-text">
-           <span class="badge ${bearData.inCollection} ? bg-success : bg-secondary}"> ${bearData.inCollection ? '✓ Bear' : 'Not Owned'} </span>
-           <span class="badge ${bearData.hasHangtag} ? bg-success : bg-secondary}"> ${bearData.hasHangtag ? '✓ Hangtag' : 'Not Owned'} </span>
+           <span class="badge ${bearData.inCollection ? 'bg-success' : 'bg-danger'} me-2"> ${bearData.inCollection ? '✓ Bear' : '✖ Bear'} </span>
+           <span class="badge ${bearData.hasHangtag ? 'bg-success' : 'bg-danger'}"> ${bearData.hasHangtag ? '✓ Hangtag' : '✖ Hangtag'} </span>
         </div>
     </div>
     `;

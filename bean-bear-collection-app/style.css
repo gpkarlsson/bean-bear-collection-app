@@ -1,7 +1,14 @@
 #app {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+
+    color: white
+}
+
+.navbar{
+      background: linear-gradient(45deg, #80c672, #885892) !important;
+
 }
 
 /* div {
@@ -13,18 +20,36 @@
 
 .row {
   border: 1px dashed blue; /* See the row boundaries */
+  width: 100%
 }
-
-.bear-card {
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bear-card .card {
   border: 1px solid red !important; /* See individual card boundaries */
+  transition: all 0.3s ease; /* Smooth hover effects */
+
 }
 .card-body {
   border: 1px solid blue !important;
-  
+  max-width: 70ch; /* Limits line length for readability */
+  margin: 0 auto;
+  background: linear-gradient(45deg, #ffcccc, #ccffcc) !important;
+  width: 100%
 }
-
+.bg-danger {
+    background-color: red;
+}
 .tour-memory {
   border: 1px solid green !important;
+   line-height: 1.4;
+  border-top: 1px solid #dee2e6;
+  text-align: left !important;
+  text-align: start !important; /* Modern browsers */
+  width: 100% !important;
+  max-width: 100% !important;
 }
 .controls {
     display: flex;
@@ -37,12 +62,6 @@
 .hidden {
     opacity: 0;
     display: none
-}
-
-
-.bg-secondary {
-    background-color: red;
-    border: solid 5px red;
 }
 
 .footer {
