@@ -1666,9 +1666,9 @@ const limitedEdition = [
     totalNum: "",
     inCollection: true,
     hasHangtag: true,
-    birthday: "",
-    tourMemory: "",
-    venue: "",
+    birthday: "04/18/69",
+    tourMemory: "I remember the first time I mail ordered for my tickets. I made sure I followed every direction 100%. I would have never forgiven myself if I made a mistake and didn't get my tickets. The first day the envelope could be post marked I'd be at the post office early that morning. I never waited in line for Dead tickets again. I used to draw cool pictures on the envelope to help make it stand out.",
+    venue: "Memorial Union Ball Room",
     imagePath: "#",
   },
   {
