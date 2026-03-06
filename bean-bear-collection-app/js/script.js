@@ -28,11 +28,9 @@ Object.entries(bearData.generations).forEach(([genName, bearArray]) => {
         //  console.log(`Processing bear ${genName}: ${bearData.bearName}`);
         const card = document.createElement('div');
         card.className = 'col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-5 bear-card';
-        //TODO: 
+        //TODO: make it look nice
         //TODO: add check for limited edition bears, only render total prod num if limited edition
         //TODO: fix display names for non numbered generations
-        //TODO: fix css classes so bears not owned display badge differently
-        // //and change hasHangtag to yes/no depending on whether hasHangtag is true or not
         card.innerHTML = `
     <div class="card h-100">
         <img src="${bearData.imagePath} class="card-img-top" alt="...">
