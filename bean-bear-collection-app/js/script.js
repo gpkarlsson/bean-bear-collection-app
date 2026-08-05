@@ -48,11 +48,6 @@ Object.entries(bearData.generations).forEach(([genName, bearArray]) => {
             <p class="card-text">
            <span class="badge ${bearData.inCollection ? 'bg-success' : 'bg-danger'} me-2"> ${bearData.inCollection ? '✓ Bear' : '✖ Bear'} </span>
            <span class="badge ${bearData.hasHangtag ? 'bg-success' : 'bg-danger'}"> ${bearData.hasHangtag ? '✓ Hangtag' : '✖ Hangtag'} </span>
-           <button class="btn btn-sm btn-primary edit-bear"
-            data-gen="${genName}"
-            data-index="${idx}">
-            Edit Bear
-            </button>
         </div>
     </div>
     `;
@@ -63,18 +58,19 @@ Object.entries(bearData.generations).forEach(([genName, bearArray]) => {
     //  console.log(`Finished bear ${genName, bearData.bearName}`);
 });
 
-document.querySelectorAll('.edit-bear').forEach(btn => {
-    btn.addEventListener('click', function(){
-        console.log("Button clicked!");
-        const genName = this.dataset.gen;
-        const index = this.dataset.index;
-        const bear = bearData.generations[genName][index];
 
-        //open edit interface with bear data
-        openEditForm(bear, genName, index);
+// document.querySelectorAll('.edit-bear').forEach(btn => {
+//     btn.addEventListener('click', function(){
+//         console.log("Button clicked!");
+//         const genName = this.dataset.gen;
+//         const index = this.dataset.index;
+//         const bear = bearData.generations[genName][index];
+
+//         //open edit interface with bear data
+//         openEditForm(bear, genName, index);
         
-    });
-});
+//     });
+// });
 
 function openEditForm(bear, genName, index, event){
 
@@ -97,8 +93,6 @@ function openEditForm(bear, genName, index, event){
         <div class="form-check mb-2">
             <input type="checkbox" class="form-check-input" id="edit-hangtag-${index}">Has Hangtag</label>
         </div>
-        <button class="btn btn-success btn-sm me-2" onclick="saveBear('${genName}', ${index})">Save</button>
-        <button class="btn btn-secondary btn-sm" onclick="cancelEdit('${genName}', ${index})">Cancel</button>
     `;
 
     const selector = `.bear-card[data-gen="${genName}"][data-index="${index}"]`;
@@ -145,24 +139,24 @@ function saveBear(genName, index){
     bear.hasHangtag = newHangtag;
 
     //Save to local storage
-    localStorage.setItem('bearData', JSON.stringify(bearData));
+    // localStorage.setItem('bearData', JSON.stringify(bearData));
 
     //refresh page to see changes
-    location.reload();
+    // location.reload();
 
     //TODO: fix so that data persists to card - can it write to json file?
 
 };
 
-function cancelEdit(genName, index){
-    console.log("Cancelling edit for:", genName, index);
-    const selector = `.bear-card[data-gen="${genName}"][data-index="${index}"]`;
-    const card = document.querySelector(selector);
-    const form = card.querySelector('.edit-form');
-    if (form) form.remove();
+// function cancelEdit(genName, index){
+//     console.log("Cancelling edit for:", genName, index);
+//     const selector = `.bear-card[data-gen="${genName}"][data-index="${index}"]`;
+//     const card = document.querySelector(selector);
+//     const form = card.querySelector('.edit-form');
+//     if (form) form.remove();
 
-    //TODO: make editing inline
-}
+//     //TODO: make editing inline
+// }
 
 
 
